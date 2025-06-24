@@ -1,8 +1,12 @@
 public class Main {
     public static void main(String[] args) {
         Saludo saludo = new Saludo();
-        System.out.println(saludo.generarSaludo("Mundo"));
-        System.out.println("Versión 1.0.0 lista para producción.");
+        
+        System.out.println(saludo.generarSaludo("Mundo", "en"));
+        System.out.println(saludo.generarSaludo("Mundo", "es"));
+        System.out.println(saludo.generarSaludo("Mundo", "fr"));
+        
+
 
         Despedida despedida = new Despedida();
         System.out.println(despedida.generarDespedida("Mundilloooooo"));
